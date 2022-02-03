@@ -22,5 +22,12 @@ namespace FizzBuzzKata.Tests {
             var result = FizzBuzz.NumberToText(3);
             Assert.AreEqual("FIZZ", result);
         }
+
+        [Test]
+        public void returns_four_as_text_for_4()
+        {
+            var result = FizzBuzz.NumberToText(4);
+            Assert.AreEqual("four", result);
+        }
     }
 }
