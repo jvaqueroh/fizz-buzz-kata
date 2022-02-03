@@ -4,15 +4,13 @@ namespace FizzBuzzKata
 {
     public class FizzBuzz
     {
-        public static string NumberToText(int number)
-        {
-            if(number.Equals(1))
-                return "one";
-            if(number.Equals(2))
-                return "two";
-            if(number.Equals(3))
-                return "FIZZ";
-            return "four";
-        }
+        public static string NumberToText(int number) =>
+            number switch
+            {
+                1 => "one",
+                2 => "two",
+                3 => "FIZZ",
+                _ => "four"
+            };
     }
 }
