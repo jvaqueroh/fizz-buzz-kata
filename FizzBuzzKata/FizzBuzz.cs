@@ -10,7 +10,9 @@ namespace FizzBuzzKata
                 return "one";
             if(number.Equals(2))
                 return "two";
-            return "FIZZ";
+            if(number.Equals(3))
+                return "FIZZ";
+            return "four";
         }
     }
 }
