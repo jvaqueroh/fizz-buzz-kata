@@ -8,9 +8,9 @@ namespace FizzBuzzKata
     /// For numbers being multiple of 5, returns "BUZZ"
     /// For numbers being multiple of 3 and 5, returns "FIZZBUZZ"
     /// </summary>
-    public class FizzBuzz
+    public class FizzBuzzer
     {
-        public static string NumberToText(int number) =>
+        public static string FizzBuzz(int number) =>
             number switch
             {
                 1 => "1",
