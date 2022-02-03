@@ -15,5 +15,12 @@ namespace FizzBuzzKata.Tests {
             var result = FizzBuzz.NumberToText(2);
             Assert.AreEqual("two", result);
         }
+
+        [Test]
+        public void returns_FIZZ_for_3()
+        {
+            var result = FizzBuzz.NumberToText(3);
+            Assert.AreEqual("FIZZ", result);
+        }
     }
 }
