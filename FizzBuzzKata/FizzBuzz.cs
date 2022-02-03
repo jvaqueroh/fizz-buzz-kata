@@ -8,7 +8,9 @@ namespace FizzBuzzKata
         {
             if(number.Equals(1))
                 return "one";
-            return "two";
+            if(number.Equals(2))
+                return "two";
+            return "FIZZ";
         }
     }
 }
