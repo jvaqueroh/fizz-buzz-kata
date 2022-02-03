@@ -13,10 +13,8 @@ namespace FizzBuzzKata
         public static string FizzBuzz(int number) =>
             number switch
             {
-                1 => "1",
-                2 => "2",
                 3 => "FIZZ",
-                _ => "4"
+                _ => number.ToString()
             };
     }
 }
