@@ -3,17 +3,17 @@
 namespace FizzBuzzKata.Tests {
     public class FizzBuzzShould {
         [Test]
-        public void returns_one_as_text_for_1()
+        public void returns_1_as_string()
         {
             string result = FizzBuzz.NumberToText(1);
-            Assert.AreEqual("one", result);
+            Assert.AreEqual("1", result);
         }
 
         [Test]
-        public void returns_two_as_text_for_2()
+        public void returns_2_as_string()
         {
             var result = FizzBuzz.NumberToText(2);
-            Assert.AreEqual("two", result);
+            Assert.AreEqual("2", result);
         }
 
         [Test]
@@ -24,10 +24,10 @@ namespace FizzBuzzKata.Tests {
         }
 
         [Test]
-        public void returns_four_as_text_for_4()
+        public void returns_4_as_string()
         {
             var result = FizzBuzz.NumberToText(4);
-            Assert.AreEqual("four", result);
+            Assert.AreEqual("4", result);
         }
     }
 }

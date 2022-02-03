@@ -3,7 +3,7 @@
 namespace FizzBuzzKata
 {
     /// <summary>
-    /// For numbers from 1 to 100, returns the text representation
+    /// For numbers from 1 to 100, returns the string representation
     /// For numbers being multiple of 3, returns "FIZZ"
     /// For numbers being multiple of 5, returns "BUZZ"
     /// For numbers being multiple of 3 and 5, returns "FIZZBUZZ"
@@ -13,10 +13,10 @@ namespace FizzBuzzKata
         public static string NumberToText(int number) =>
             number switch
             {
-                1 => "one",
-                2 => "two",
+                1 => "1",
+                2 => "2",
                 3 => "FIZZ",
-                _ => "four"
+                _ => "4"
             };
     }
 }
