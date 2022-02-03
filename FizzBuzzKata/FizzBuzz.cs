@@ -6,7 +6,9 @@ namespace FizzBuzzKata
     {
         public static string NumberToText(int number)
         {
-            return "one";
+            if(number.Equals(1))
+                return "one";
+            return "two";
         }
     }
 }
