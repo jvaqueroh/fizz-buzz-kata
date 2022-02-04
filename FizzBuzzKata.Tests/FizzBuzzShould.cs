@@ -43,5 +43,12 @@ namespace FizzBuzzKata.Tests {
             var result = FizzBuzzer.FizzBuzz(6);
             Assert.AreEqual("FIZZ", result);
         }
+
+        [Test]
+        public void returns_FIZZ_for_9()
+        {
+            var result = FizzBuzzer.FizzBuzz(9);
+            Assert.AreEqual("FIZZ", result);
+        }
     }
 }
