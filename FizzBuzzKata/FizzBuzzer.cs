@@ -15,6 +15,7 @@ namespace FizzBuzzKata
             {
                 3 => "FIZZ",
                 5 => "BUZZ",
+                6 => "FIZZ",
                 _ => number.ToString()
             };
     }
