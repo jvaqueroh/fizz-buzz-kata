@@ -1,4 +1,5 @@
-﻿using NUnit.Framework;
+﻿using System.Diagnostics;
+using NUnit.Framework;
 
 namespace FizzBuzzKata.Tests {
     public class FizzBuzzShould {
@@ -63,6 +64,13 @@ namespace FizzBuzzKata.Tests {
         {
             var result = FizzBuzzer.FizzBuzz(20);
             Assert.AreEqual("BUZZ", result);
+        }
+
+        [Test]
+        public void returns_FIZZBUZZ_for_15()
+        {
+            var result = FizzBuzzer.FizzBuzz(15);
+            Assert.AreEqual("FIZZBUZZ", result);
         }
     }
 }
