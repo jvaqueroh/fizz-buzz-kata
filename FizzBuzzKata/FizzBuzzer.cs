@@ -10,14 +10,13 @@ namespace FizzBuzzKata
     /// </summary>
     public class FizzBuzzer
     {
-        public static string FizzBuzz(int number) =>
-            number switch
-            {
-                3 => "FIZZ",
-                5 => "BUZZ",
-                6 => "FIZZ",
-                9 => "FIZZ",
-                _ => number.ToString()
-            };
+        public static string FizzBuzz(int number)
+        {
+            if (number % 3 == 0)
+                return "FIZZ";
+            if (number == 5)
+                return "BUZZ";
+            return number.ToString();
+        }
     }
 }
