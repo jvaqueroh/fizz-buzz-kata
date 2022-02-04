@@ -14,7 +14,7 @@ namespace FizzBuzzKata
         {
             if (number % 3 == 0)
                 return "FIZZ";
-            if (number == 5 || number == 10 || number == 20)
+            if (number % 5 == 0)
                 return "BUZZ";
             return number.ToString();
         }
