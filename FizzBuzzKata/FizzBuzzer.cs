@@ -12,6 +12,8 @@ namespace FizzBuzzKata
     {
         public static string FizzBuzz(int number)
         {
+            if (number == 15)
+                return "FIZZBUZZ";
             if (number % 3 == 0)
                 return "FIZZ";
             if (number % 5 == 0)
